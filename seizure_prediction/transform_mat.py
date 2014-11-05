@@ -17,11 +17,11 @@ from scipy.signal import resample, hann
 def transformAll(externalHD = False):
   if externalHD:
     #External Hard drive
-    directory = "/Volumes/LACIE SHARE/KAGGLE/EPILEPSY/"
+    directory = "ExternalHD"
     listOfScans = ['Dog_1', 'Dog_2', 'Dog_3', 'Dog_4', 'Dog_5', 'Patient_1', 'Patient_2']
   else:
     #local only Dog5
-    directory = "/Users/christopheguerrier/work/Kaggle/Epilepsy/"
+    directory = "LocalHD"
     listOfScans = ['Dog_5']
   for scan in listOfScans:
     print scan
