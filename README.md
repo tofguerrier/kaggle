@@ -1,4 +1,10 @@
 kaggle
 ======
 
-kaggle competition code
+Kaggle competition code
+
+
+Competitions entered:
+    Titanic
+	Digit Recognoizer
+ 	Seizure prediction
